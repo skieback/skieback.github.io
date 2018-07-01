@@ -3994,7 +3994,7 @@ input, select, textarea {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .copyright {
+		.inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
 			margin: 4em 0 2em 0;
@@ -4002,7 +4002,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			#footer .inner .copyright li {
+			.inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
@@ -4013,13 +4013,13 @@ input, select, textarea {
 				padding-left: 1em;
 			}
 
-				#footer .inner .copyright li:first-child {
+				.inner .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
 
-				#footer .inner .copyright li a {
+				.inner .copyright li a {
 					color: inherit;
 				}
 
@@ -4059,7 +4059,7 @@ input, select, textarea {
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .copyright {
+				.inner .copyright {
 					margin: 4em 0 2em 0;
 				}
 
@@ -4088,14 +4088,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		#footer .inner .copyright li {
+		.inner .copyright li {
 			border-left: 0;
 			display: block;
 			margin: 1em 0 0 0;
 			padding-left: 0;
 		}
 
-			#footer .inner .copyright li:first-child {
+			.inner .copyright li:first-child {
 				margin-top: 0;
 			}
 
